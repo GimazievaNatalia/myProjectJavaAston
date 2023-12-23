@@ -1,18 +1,20 @@
 package org.example.gimazieva;
 
 public class App6 {
-    public static void replacementNumber(String[] args) {
+    public static void replacementNumber() {
         int [] numbers = {1, 1, 1, 0, 0, 1, 0, 0, 0, 1};
-        int [] result ;
-        for (int i=0 ; i < numbers.length-1 ; i++) {
-            if (numbers[i] ==0) {
-                result = result[] + 1;
+        for (int i = 0 ; i < numbers.length ; i++) {
+            if (numbers[i] == 0) {
+                numbers[i] = numbers[i] + 1;
             }
+            else{
+                numbers[i] = numbers[i] - 1;
+            }
+            System.out.println(numbers[i]);
         }
-         if (int i = 1){
-             System.out.println(tmp[2]);
-         }
-
+    }
+    public static void main (String[]args) {
+        replacementNumber();
     }
 }
 
