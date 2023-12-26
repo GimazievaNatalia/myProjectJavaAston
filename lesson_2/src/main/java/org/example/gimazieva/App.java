@@ -1,7 +1,6 @@
 package org.example.gimazieva;
 
 public class App {
-
     public static void main(String[] args) {
         printThreeWords();
         checkSumSign();
