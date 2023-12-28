@@ -1,6 +1,6 @@
 package org.example.gimazieva;
 
-public class Employees {
+public class Person{
 
     private String name;
     private String position;
@@ -9,7 +9,7 @@ public class Employees {
     private int salary;
     private int age;
 
-    public Employees(String name, String position, String email, String phone, int salary, int age) {
+    public Person(String name, String position, String email, String phone, int salary, int age) {
         this.name = name;
         this.position = position;
         this.email = email;
@@ -19,7 +19,7 @@ public class Employees {
 
     }
 
-    public void showEmployeeInformation() {
+    public void showPersoninformation() {
         System.out.println("ФИО: " + name + "; Должность: " + position + "; email: " + email +
                 "; Телефон: " + phone + "; Зарплата: " + salary + "; Возраст: " + age);
     }
