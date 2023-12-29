@@ -1,13 +1,12 @@
 package org.example.gimazieva;
 public class App7 {
-    public static void main(String[] args) {
-        fillMatrixNumbers();
-    }
-    public static void fillMatrixNumbers() {
+
+    public static void fillArrayNumbers() {
         int[] numbers = new int[100];
-        for (int i = 0; i < 100; i++) {
-            numbers[i] = i + 1;
-            System.out.println(numbers[i]);
+        int i = 1;
+        for (int number : numbers) {
+            number = i++;
+            System.out.println(number);
         }
     }
 }

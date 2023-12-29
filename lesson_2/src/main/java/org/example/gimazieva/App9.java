@@ -1,10 +1,6 @@
 package org.example.gimazieva;
 
 public class App9 {
-    public static void main(String[] args) {
-        matrixDiagonalFiller();
-    }
-
     public static void matrixDiagonalFiller() {
         int[][] numbers = new int[5][5];
         for (int i = 0; i < numbers.length; i++) {
